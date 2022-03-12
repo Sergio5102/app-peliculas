@@ -1,0 +1,32 @@
+.peliculaCard {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.peliculaCard:hover {
+  -webkit-transform: scale(1.07);
+  transform: scale(1.07);
+  transition: transform 0.7s;
+}
+
+.peliculaCard__pointer {
+  cursor: url(../img/cursor2.png), pointer;
+}
+
+.peliculaCard__movieImage {
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.peliculaCard__movieImage:hover {
+  box-shadow: 0 0 10px #fff, 0 0 15px #00e632, 0 0 30px #00e632;
+  transition: all 0.7s ease-in-out;
+}
+
+@media (max-width: 560px) {
+  .peliculaCard__movieImage {
+    width: 90%;
+    height: auto;
+  }
+}

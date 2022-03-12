@@ -1,0 +1,37 @@
+.busqueda__Container {
+  display: flex;
+  justify-content: center;
+  padding-top: 3em;
+}
+.busqueda__searchBox {
+  position: relative;
+}
+
+.busqueda__searchButton {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  height: 100%;
+}
+
+.busqueda__pointer {
+  cursor: url(../img/cursor2.png), pointer;
+}
+
+.busqueda__write {
+  cursor: url(../img/cursor3.png), text;
+}
+
+.busqueda__searchInput {
+  font-size: 1.2rem;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid white;
+}
+
+.busqueda__searchInput:focus .busqueda__searchButton:focus {
+  outline: none;
+  border: 1px solid #f88ec2;
+  box-shadow: 0 0 5px #ebbed4;
+}

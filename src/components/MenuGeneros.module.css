@@ -1,0 +1,31 @@
+.MenuGeneros {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.MenuGeneros__enlaces {
+  padding: 10px;
+  background-color: black;
+  color: #00e632;
+  border: 1px solid #00e632;
+  margin: 5px;
+  display: inline-block;
+  font-family: Menu;
+  font-size: 1.2rem;
+}
+.MenuGeneros__enlaces:hover {
+  background-color: #00e632;
+  color: black;
+}
+
+.MenuGeneros__pointer {
+  cursor: url(../img/cursor2.png), pointer;
+}
+
+@font-face {
+  font-family: "Menu";
+  src: url("../fonts/aurelis-adf.no2-std-regular.otf");
+}

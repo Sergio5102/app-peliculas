@@ -1,0 +1,27 @@
+.peliculaDetalles__detailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.peliculaDetalles__col {
+  max-width: 400px;
+  margin: 20px;
+  height: auto;
+  height: 80%;
+}
+
+.peliculaDetalles__movieImage {
+  border-radius: 15px;
+  box-shadow: 0 0 10px #fff, 0 0 15px #00e632, 0 0 30px #00e632;
+}
+
+.peliculaDetalles__movieDetails {
+  font-size: 1.5rem;
+}
+
+.peliculaDetalles__firstItem {
+  margin-top: 0;
+}
