@@ -9,8 +9,9 @@
 .MenuGeneros__enlaces {
   padding: 10px;
   background-color: black;
+  border-radius: 10px;
   color: #00e632;
-  border: 1px solid #00e632;
+  border: 2px solid #00e632;
   margin: 5px;
   display: inline-block;
   font-family: Menu;
@@ -18,7 +19,9 @@
 }
 .MenuGeneros__enlaces:hover {
   background-color: #00e632;
+  border: 2px solid #ffffffd3;
   color: black;
+  transition: all 0.5s;
 }
 
 .MenuGeneros__pointer {

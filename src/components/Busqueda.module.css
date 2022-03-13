@@ -24,10 +24,13 @@
 
 .busqueda__searchInput {
   font-size: 1.2rem;
-  height: 30px;
+  height: 40px;
+  width: 300px;
   border-radius: 10px;
   padding: 5px 30px 5px 10px;
-  border: 1px solid white;
+  color: #00e632;
+  border: 2px solid #00e632;
+  background-color: #00e63215;
 }
 
 .busqueda__searchInput:focus .busqueda__searchButton:focus {

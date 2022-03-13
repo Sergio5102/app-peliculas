@@ -24,7 +24,7 @@ export function App() {
           </h1>
         </Link>
       </header>
-      <main>
+      <main className={estilo.app__main}>
         <Routes>
           <Route path="/" element={<PaginaCarga />}></Route>
           <Route

@@ -4,6 +4,11 @@ header {
   background-image: url("img/matrix1.gif");
 }
 
+.app__main {
+  background-image: url("img/matrix12.gif");
+  background-color: black;
+}
+
 .app__title {
   text-align: center;
   font-size: 3rem;
