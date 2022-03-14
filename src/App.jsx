@@ -4,7 +4,7 @@
 //Para renombrar un componente y que se renombre en todos sitios se usa F2.
 //Renombrar no funciona si se utiliza el export default
 import estilo from "./App.module.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import { PeliculaDetalles } from "./pages/peliculaDetalles";
 import { PaginaCarga } from "./pages/PaginaCarga";
 const classes = [
@@ -31,6 +31,7 @@ export function App() {
             path="/peliculas/:peliculaId"
             element={<PeliculaDetalles />}
           ></Route>
+          <Route path="*" element={<Navigate replace to="/"></Navigate>}></Route>
         </Routes>
       </main>
     </BrowserRouter>

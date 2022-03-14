@@ -29,7 +29,7 @@ export function Busqueda() {
             history("/?search=" + value);
           }}
         />
-        <FaSearch size={20} color="black" className={classes3.join(" ")} />
+        <FaSearch size={20} className={classes3.join(" ")} />
       </div>
     </form>
   );
